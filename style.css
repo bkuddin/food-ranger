@@ -1,9 +1,65 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Livvic', sans-serif;
+body {
+  font-family: "Livvic", sans-serif;
 }
+
+.flexible-action {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.half-width h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 150px;
+  color: #333;
+}
+
+.highlight-text {
+  color: red;
+}
+
+.half-width p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, red, brown);
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, brown, red);
+}
+
+.top-backdrop {
+  height: 100vh;
+  background-image: url(images/food-cover-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Header Section End*/
