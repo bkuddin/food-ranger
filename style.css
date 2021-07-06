@@ -227,13 +227,19 @@ body {
   background: linear-gradient(45deg, red, brown);
 }
 
-.checkbox {
-  width: 25px;
-  height: 25px;
-  border-radius: none;
+input[type="checkbox"] {
+  appearance: none;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(252, 248, 248);
+  cursor: pointer;
   margin-top: 10px;
-  margin-left: 10px;
   margin-right: 5px;
+  margin-left: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: red;
 }
 
 #sub-catalog {
