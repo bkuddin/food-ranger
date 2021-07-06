@@ -65,6 +65,6 @@ body {
 /*Header Section End*/
 .about-cover-bg {
   height: 100vh;
-  background-image: url(images/about-cover-bg.jpg);
+  background-image: url(images/about-cover-bg.png);
   background-size: cover;
 }
