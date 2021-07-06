@@ -176,3 +176,85 @@ body {
   font-size: 10px;
   color: red;
 }
+
+/*Subscribe Section Start*/
+
+.subscribe-section {
+  background-color: rgb(224, 221, 221);
+  padding: 70px 70px;
+}
+
+#sub-news {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+#sub-news h5 {
+  font-size: 30px;
+  color: #333;
+}
+
+#sub-news p {
+  font-size: 15px;
+  color: rgb(129, 126, 126);
+  margin-bottom: 10px;
+}
+
+.sub-email {
+  width: 375px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: rgb(228, 226, 226);
+  font-size: 16px;
+}
+
+/*placeholder css padding*/
+
+input {
+  text-indent: 20px;
+}
+
+.sub-btn {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+
+  background: linear-gradient(45deg, red, brown);
+}
+
+.checkbox {
+  width: 25px;
+  height: 25px;
+  border-radius: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+#sub-catalog {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  text-align: center;
+  padding-top: 7%;
+  box-shadow: 0px 7px 40px rgb(204, 202, 202);
+}
+
+#sub-catalog h5 {
+  font-size: 30px;
+  color: #333;
+}
+
+#sub-catalog a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
