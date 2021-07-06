@@ -23,7 +23,7 @@ body {
 }
 
 .half-width h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 700;
   margin-top: 150px;
   color: #333;
@@ -63,6 +63,9 @@ body {
 }
 
 /*Header Section End*/
+.half-width h2 {
+  font-size: 50px;
+}
 .about-cover-bg {
   height: 100vh;
   background-image: url(images/about-cover-bg.png);
@@ -70,3 +73,59 @@ body {
 }
 
 /*Recipies Section Start*/
+
+.recipies-section {
+  margin-top: 50px;
+  margin-bottom: 160px;
+}
+
+.recipies-section h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.recipies-description {
+  font-size: 20px;
+  text-align: center;
+
+  margin-bottom: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+#pepperoni {
+  margin-left: 10%;
+  margin-right: 2.5%;
+}
+
+#rich-salami {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#delectable-ham {
+  margin-left: 2.5%;
+  margin-right: 10%;
+}
+
+.recipe {
+  box-shadow: 0px 0px 40px rgb(212, 208, 208);
+  padding: 25px;
+  border-radius: 35px;
+}
+
+.recipe img {
+  width: 100%;
+}
+
+.recipe h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.recipe p {
+  font-size: 20px;
+}
