@@ -258,3 +258,25 @@ input {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/*footer start*/
+
+footer {
+  padding-top: 30px;
+  background: linear-gradient(45deg, rgb(255, 1, 1), brown);
+  text-align: center;
+  height: 200px;
+}
+
+footer h6 {
+  font-size: 30px;
+}
+
+footer .highlight-text {
+  color: white;
+}
+
+footer p {
+  margin-top: 30px;
+  color: white;
+}
