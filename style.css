@@ -273,7 +273,7 @@ input[type="checkbox"]:checked {
 .footer-bg {
   background: linear-gradient(147deg, #c62128 0%, #a00000 74%);
   text-align: center;
-  height: 400px;
+  height: 500px;
 }
 .footer-text {
   background-image: url(images/footer-bg.png);
