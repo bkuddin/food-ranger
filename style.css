@@ -180,7 +180,7 @@ body {
 /*Subscribe Section Start*/
 
 .subscribe-section {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(250, 214, 8);
   padding: 70px 70px;
 }
 
@@ -196,7 +196,7 @@ body {
 
 #sub-news p {
   font-size: 15px;
-  color: rgb(129, 126, 126);
+  color: rgb(48, 48, 45);
   margin-bottom: 10px;
 }
 
@@ -204,14 +204,15 @@ body {
   width: 375px;
   height: 50px;
   border-radius: 25px;
-  border-color: rgb(228, 226, 226);
+  border-color: rgb(253, 2, 2);
   font-size: 16px;
 }
 
-/*placeholder css padding*/
+/*placeholder css padding & style*/
 
-input {
+::placeholder {
   text-indent: 20px;
+  color: rgb(215, 216, 216);
 }
 
 .sub-btn {
@@ -223,7 +224,6 @@ input {
   font-size: 20px;
   font-weight: bold;
   color: white;
-
   background: linear-gradient(45deg, red, brown);
 }
 
@@ -239,7 +239,9 @@ input {
 #sub-catalog {
   width: 100%;
   height: 250px;
-  background-color: white;
+  background-image: url(images/catalog-bg.png),
+    linear-gradient(rgba(252, 251, 251, 0.842), rgba(250, 250, 250, 0.89));
+  background-blend-mode: overlay;
   text-align: center;
   padding-top: 7%;
   border-radius: 25px;
@@ -262,15 +264,20 @@ input {
 
 /*footer start*/
 
-footer {
-  padding-top: 30px;
-  background: linear-gradient(45deg, rgb(255, 1, 1), brown);
+.footer-bg {
+  background: linear-gradient(147deg, #c62128 0%, #a00000 74%);
   text-align: center;
-  height: 200px;
+  height: 400px;
+}
+.footer-text {
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 140px;
 }
 
 footer h6 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 footer .highlight-text {
